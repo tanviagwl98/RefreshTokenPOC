@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_BASE_URL = 'https://api.spotify.com/v1';
-const CLIENT_ID = '6f160e02d96d4703949471d901f9b904';
-const CLIENT_SECRET = '379aa218a8f64e4f96ac9b1351dd4dd9';
+const CLIENT_ID = '';
+const CLIENT_SECRET = '';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
