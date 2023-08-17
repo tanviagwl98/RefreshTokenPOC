@@ -17,7 +17,7 @@ customAxios.interceptors.response.use(
         try {
           originalRequest._retry = true;
           const res = await customAxios.post(
-            "https://q32-libertycf.smartcmobile.net/AgencyAPI/api/1/agency/validatelogin",
+            "https://",
             {
               username: JSON.parse(localStorage.getItem("Udata")).userName,
               ipAddress: "40.83.171.213",
