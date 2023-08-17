@@ -20,7 +20,7 @@ const HomePage = () => {
   const navigate = useNavigate();
   // const [data,setData] = useState();
   const handleLogout = () => {
-    localStorage.removeItem("APaccessToken");
+    localStorage.removeItem("accessToken");
     navigate("/");
   };
   // const [checked, setChecked] = useState(false) /*For single check box*/
@@ -50,11 +50,11 @@ const HomePage = () => {
   const getData = async () => {
     // debugger
     const res = await customAxios.get(
-      "https://q32-libertycf.smartcmobile.net/AgencyAPI/api/1/Pledge/GetAmount?agencyId=30&userId=35",
+      "https://",
       {
         headers: {
-          PT: "A",
-          Authorization: `Bearer ${localStorage.getItem("APaccessToken")}`,
+          py: "x",
+          Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
         },
       }
     );
