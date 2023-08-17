@@ -23,11 +23,11 @@ function Login() {
       const res = await customAxios.post('https://q32-libertycf.smartcmobile.net/AgencyAPI/api/1/agency/validatelogin', {
         userName:email,
         password:password,
-        ipAddress: "40.83.171.213"
+        ipAddress: "xx.xx.xxx.xxx"
                  },
                  {
                     headers:{
-                        'ST':'PL'
+                        'St':'Pl'
                 }
         });
 
